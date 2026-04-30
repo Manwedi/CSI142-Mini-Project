@@ -196,7 +196,7 @@ public class MainApp {
             System.out.println("Invalid selection");
         }
         Bus selectedBus = buses.get(busIndex - 1);
-        String buBookings(name, trip[0], trip[1], busName, totalFare);
+        String busName = new Bookings(name, trip[0], trip[1], busName, totalFare);
         bookings.add(newBooking)sName = selectedBus.getPlateNumber(); 
         Bookings newBooking = new ;
         System.out.println("\nBooking confirmed!");
