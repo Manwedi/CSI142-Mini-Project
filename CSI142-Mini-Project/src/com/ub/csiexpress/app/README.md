@@ -38,3 +38,51 @@ Architecture: Object Oriented Programming(Inheritance, Polymorphism, Abstraction
 ## Contributing
 Always `git pull origin main` before starting work to avoid merge conflicts.
 Create a feature branch for significant changes.
+
+## RUNNING MAIN APP
+To run the main app, navigate to the `src` directory in your terminal and run the following command:
+java com.ub.csiexpress.app.MainApp
+
+### Home Screen 
+******** CSI EXPRESS ********
+Welcome Manwedi, pleased to serve you at CSI Express!
+
+1. BOOKINGS
+2. ADMIN LOGIN 
+3. EXIT
+
+Thank you for choosing CSI Express!
+*****************************
+
+### Bookings Screen
+******** CSI EXPRESS ********
+Hello Claude, pleased to serve you at CSI Express!  
+1. Book a Trip --> 
+2. Cancel Trip --> 
+3. View My Bookings --> 
+4. Back
+****************************
+
+### Admin Screen
+* Admin Credentials: 
+    Username: "admin"  
+    Password: "admin123"    // we added ignoreCase to the login method because it is just a demo and we were reducing code complexity to not overcomplicate the project...
+
+Admin Login --> Enter password --> Admin Dashboard  
+ ****************** CSI EXPRESS *****************
+Hello Admin, enter your credentials to continue
+Enter your username
+//admin
+Enter your password
+//admin123
+
+#### After Succesful login // Admin Portal
+ ****************** CSI EXPRESS *****************
+ ADMIN LOGIN
+1. ADD BUS
+2. BOOKINGS AND REVENUE
+3. CANCEL A BOOKING
+4. REMOVE BUS
+5. VIEW BUSES
+6. BACK
+ ****************** CSI EXPRESS *****************
