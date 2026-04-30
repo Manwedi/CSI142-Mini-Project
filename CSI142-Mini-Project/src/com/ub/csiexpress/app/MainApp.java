@@ -338,7 +338,9 @@ public class MainApp {
                     System.out.println("Invalid choice. Please try again.");
             }
         } while (choice != 6);
-
+        } else {
+            System.out.println("Invalid credentials");
+        }
     }
 
     public static void addBus(Scanner scanner, List<Bus> buses, List<Route> routes) {
