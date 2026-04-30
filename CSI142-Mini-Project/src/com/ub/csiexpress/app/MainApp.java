@@ -275,6 +275,15 @@ public class MainApp {
     }
 
     private static void adminLogin(Scanner scanner, List<Bus> buses, List<Route> routes) { // Admin method
+        System.out.println("\n ****************** CSI EXPRESS *****************\n");
+        // Username and Password: Admin/admin123 (for reference only, not to be used in code
+        System.out.println("Hello Admin, enter your credentials to continue\n");
+        System.out.println("Enter your username");
+        String userName = scanner.nextLine();
+        System.out.println("Enter your password");
+        String password = scanner.nextLine();
+        if (userName.equalsIgnoreCase("Admin") && password.equalsIgnoreCase("admin123")) {
+            int choice;
         do {
             System.out.println("\n ****************** CSI EXPRESS *****************\n");
             System.out.println("\n ADMIN LOGIN\n");
