@@ -40,4 +40,8 @@ public CityEnum {
 
         return EARTH_RADIUS_KM * c;
     }
+   public static CityEnum fromString(String input) { //
+        String normalized = input.trim().toUpperCase().replace(" ", "_");
+        return CityEnum.valueOf(normalized);
+    }
 }
