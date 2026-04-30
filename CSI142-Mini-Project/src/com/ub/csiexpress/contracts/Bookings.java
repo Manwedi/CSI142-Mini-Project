@@ -11,7 +11,7 @@ import com.ub.csiexpress.model.CityEnum;
 
 public class Bookings {
     private static int idCounter = 1;
-    private bookingsId;
+    private int bookingsId;
     private String name;
     private CityEnum from;
     private CityEnum to;
