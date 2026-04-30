@@ -196,9 +196,10 @@ public class MainApp {
             System.out.println("Invalid selection");
         }
         Bus selectedBus = buses.get(busIndex - 1);
-        String busName = new Bookings(name, trip[0], trip[1], busName, totalFare);
-        bookings.add(newBooking)sName = selectedBus.getPlateNumber(); 
-        Bookings newBooking = new ;
+        String busName = selectedBus.getPlateNumber(); 
+        Bookings newBooking = new Bookings(name, trip[0], trip[1], busName, totalFare);
+        bookings.add(newBooking);
+    
         System.out.println("\nBooking confirmed!");
         System.out.println(newBooking);
         System.out.println("Thank you for choosing CSI Express!\n");
