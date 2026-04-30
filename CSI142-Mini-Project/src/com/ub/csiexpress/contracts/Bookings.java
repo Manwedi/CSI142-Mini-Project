@@ -18,7 +18,7 @@ public class Bookings {
     private int fare;
 
     public Bookings(String name, CityEnum from, CityEnum to, String busName, int fare) {
-        this.bookingsid = idCounter++;
+        this.bookingsId = idCounter++;
         this.name = name;
         this.from = from;
         this.to = to;
