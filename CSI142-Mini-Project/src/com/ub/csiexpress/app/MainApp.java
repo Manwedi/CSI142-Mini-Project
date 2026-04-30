@@ -190,15 +190,15 @@ public class MainApp {
                 if (busIndex >= 1 && busIndex <= buses.size()) {
                     break;
                 }
-        Bus selectedBus = buses.get(busIndex - 1);
-        String buBookings(name, trip[0], trip[1], busName, totalFare);
-        bookings.add(newBooking)sName = selectedBus.getPlateNumber(); 
-        Bookings newBooking = new ;
             } else {
                 scanner.next();
             }
             System.out.println("Invalid selection");
         }
+        Bus selectedBus = buses.get(busIndex - 1);
+        String buBookings(name, trip[0], trip[1], busName, totalFare);
+        bookings.add(newBooking)sName = selectedBus.getPlateNumber(); 
+        Bookings newBooking = new ;
         System.out.println("\nBooking confirmed!");
         System.out.println(newBooking);
         System.out.println("Thank you for choosing CSI Express!\n");
