@@ -44,37 +44,37 @@ To run the main app, navigate to the `src` directory in your terminal and run th
 java com.ub.csiexpress.app.MainApp
 
 ### Home Screen 
-******** CSI EXPRESS ********
-Welcome Manwedi, pleased to serve you at CSI Express!
+******** CSI EXPRESS ******** <br>
+Welcome Manwedi, pleased to serve you at CSI Express! <br>
 
-1. BOOKINGS
-2. ADMIN LOGIN 
-3. EXIT
+1. BOOKINGS <br>
+2. ADMIN LOGIN <br>
+3. EXIT <br>
 
 Thank you for choosing CSI Express!
 *****************************
 
 ### Bookings Screen
-******** CSI EXPRESS ********
-Hello Claude, pleased to serve you at CSI Express!  
-1. Book a Trip --> 
-2. Cancel Trip --> 
-3. View My Bookings --> 
-4. Back
+******** CSI EXPRESS ******** <br>
+Hello Claude, pleased to serve you at CSI Express! <br>
+1. Book a Trip --> <br>
+2. Cancel Trip --> <br>
+3. View My Bookings --> <br>
+4. Back <br>
 ****************************
 
 ### Admin Screen
-* Admin Credentials: 
-    Username: "admin"  
-    Password: "admin123"    // we added ignoreCase to the login method because it is just a demo and we were reducing code complexity to not overcomplicate the project...
+* Admin Credentials: <br>
+    Username: "admin" <br>
+    Password: "admin123" <br>    // we added ignoreCase to the login method because it is just a demo and we were reducing code complexity to not overcomplicate the project...
 
 Admin Login --> Enter password --> Admin Dashboard  
- ****************** CSI EXPRESS *****************
-Hello Admin, enter your credentials to continue
-Enter your username
-//admin
-Enter your password
-//admin123
+ ****************** CSI EXPRESS ***************** <br>
+Hello Admin, enter your credentials to continue <br>
+Enter your username <br>
+//admin <br>
+Enter your password <br>
+//admin123 <br>
 
 #### After Succesful login // Admin Portal
  ****************** CSI EXPRESS *****************
@@ -84,5 +84,5 @@ Enter your password
 3. CANCEL A BOOKING
 4. REMOVE BUS
 5. VIEW BUSES
-6. BACK
- ****************** CSI EXPRESS *****************
+6. BACK <br>
+ ****************** CSI EXPRESS ***************** <br>
