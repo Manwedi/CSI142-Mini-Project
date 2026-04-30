@@ -44,4 +44,16 @@ public CityEnum {
         String normalized = input.trim().toUpperCase().replace(" ", "_");
         return CityEnum.valueOf(normalized);
     }
+   @Override
+    public String toString() {
+        String name = name().replace("_", " ");
+        String[] words = name.toLowerCase().split(" ");
+        StringBuilder result = new StringBuilder();
+        for (String word : words) {
+            result.append(Character.toUpperCase(word.charAt(0)))
+                    .append(word.substring(1))
+                    .append(" ");
+        }
+        return result.toString().trim(); // "Selibe Phikwe" instead of "Selibe phikwe"
+    }
 }
