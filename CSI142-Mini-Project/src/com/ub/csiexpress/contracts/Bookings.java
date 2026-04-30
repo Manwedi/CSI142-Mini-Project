@@ -45,7 +45,7 @@ public class Bookings {
 
     @Override
     public String toString() {
-        return String.format("ID: %f | %s: %s -> %s | Bus: %s",
+        return String.format("ID: %s | %s: %s -> %s | Bus: %s",
         bookingId, name, from, to, busName, fare);
             
     }
