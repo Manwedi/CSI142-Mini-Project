@@ -25,7 +25,7 @@ public class FareEstimator{
     public int calculateFareForTrip(CityEnum[] trip){
         double totalDistance = 0;
         for(int i = 0; i < trip.length - 1; i++){
-            totalDistance += trip[i].dsitanceTo(trip[i + 1]);
+            totalDistance += trip[i].distanceTo(trip[i + 1]);
         }
         return calculateFare(totalDistance);
     }
