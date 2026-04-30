@@ -193,7 +193,7 @@ public class MainApp {
             } else {
                 scanner.next();
             }
-            System.out.println("Invalid selection);
+            System.out.println("Invalid selection");
         }
         Bus selectedBus = buses.get(busIndex - 1);
         String busName = selectedBus.getPlateNumber(); 
