@@ -172,7 +172,7 @@ public class MainApp {
         System.out.printf("Distance: %.1f km%n", pointA.distanceTo(pointB));
         System.out.printf("Total fare: P%d%n", totalFare);
 
-        // Here we place a bus selection logic.(if there aren't any buses user gets error message and can't continue to book
+        // Here we place a bus selection logic.(if there aren't any buses user gets error message and can't continue to book)
         if (buses.isEmpty()) {
             System.out.println("Sorry, there is no available bus seats at the moment");
             return;
@@ -192,6 +192,7 @@ public class MainApp {
                 }
             } else {
                 scanner.next();
+                return;
             }
             System.out.println("Invalid selection");
             return;
