@@ -16,8 +16,6 @@ import com.ub.csiexpress.model.CityEnum;
 import com.ub.csiexpress.model.Route;
 import com.ub.csiexpress.contracts.Bookings;
 import com.ub.csiexpress.services.FareEstimator;
-import com.ub.csiexpress.exceptions.InvalidRouteException;
-import com.ub.csiexpress.exceptions.OverbookedException;
 
 public class MainApp {
     private static int choice;
