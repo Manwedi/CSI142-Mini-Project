@@ -1,6 +1,6 @@
 package com.ub.csiexpress.model;
 
-public CityEnum {
+public enum CityEnum {
   Kasane(-17.8294, 25.1528),
   Francistown(-21.1671, 27.5126),    
   Maun(-19.9833, 23.4167),
