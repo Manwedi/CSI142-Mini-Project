@@ -174,8 +174,31 @@ public class MainApp {
         System.out.printf("Distance: %.1f km%n", pointA.distanceTo(pointB));
         System.out.printf("Total fare: P%d%n", totalFare);
 
-        // NEW: Create and store booking
-        String busName = "CSI EXPRESS"; // Hardcoded for now - replace with bus selection
+        // Here we place a bus selection logic.(if there aren't any buses user gets error message and can't continue to book
+        if (buses.isEmpty()) {
+            System.out.println("Sorry, there is no available bus seats at the moment");
+            return;
+        } 
+        System.out.println("\n SELECT PREFERRED BUS");
+            for (int i = 0; i < buses.size(); i++) {
+                System.out.println((i + 1) + ". " + buses.get(i).getPlateNumber() + " (Driver: " + buses.get(i).getDriverName() + ")");
+            }
+            int busIndex;
+        while(true) {
+            System.out.println("Enter choice (1-" + buses.size() + "): "); 
+            if (scanner.hasNextInt()) {
+                busIndex = scanner.nextInt();
+                scanner.nextLine();
+                if (busIndex >= 1 && busIndex <= buses.size()) {
+                    break;
+                }
+            } else {
+                scanner.next();
+            }
+            System.out.println("Invalid selection);
+        }
+        Bus selectedBus = buses.get(busIndex - 1);
+        String busName = selectedBus.getPlateNumber(); 
         Bookings newBooking = new Bookings(name, trip[0], trip[1], busName, totalFare);
         bookings.add(newBooking);
 
