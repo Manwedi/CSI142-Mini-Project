@@ -175,7 +175,7 @@ public class MainApp {
         System.out.printf("Total fare: P%d%n", totalFare);
 
         // NEW: Create and store booking
-        String busName = "Legofi's Tour & Travel"; // Hardcoded for now - replace with bus selection
+        String busName = "CSI EXPRESS"; // Hardcoded for now - replace with bus selection
         Bookings newBooking = new Bookings(name, trip[0], trip[1], busName, totalFare);
         bookings.add(newBooking);
 
