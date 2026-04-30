@@ -342,7 +342,7 @@ public class MainApp {
             System.out.println("Invalid credentials");
         }
     }
-
+    // Bus Adder method
     public static void addBus(Scanner scanner, List<Bus> buses, List<Route> routes) {
         System.out.println("\n ****************** CSI EXPRESS *****************\n");
         System.out.println("\n ADD BUS\n");
@@ -362,8 +362,8 @@ public class MainApp {
         System.out.println("\nBus added successfully!");
         System.out.println(buses);
     }
-
-    public static void bookingRevenue(Scanner scanner) {
+    
+    public static void bookingRevenue(Scanner scanner) {    // Booking and Revenue method
         System.out.println("\n ****************** CSI EXPRESS *****************\n");
         System.out.println("\n BOOKINGS AND REVENUE\n");
         System.out.println("\n BOOKINGS\n");
@@ -377,7 +377,7 @@ public class MainApp {
 
     }
 
-    public static void removeBus(Scanner scanner, List<Bus> buses, List<Route> routes) {
+    public static void removeBus(Scanner scanner, List<Bus> buses, List<Route> routes) {  // Bus remover method
         System.out.println("\n ****************** CSI EXPRESS *****************\n");
         System.out.println("\n REMOVE BUS\n");
         System.out.println(buses);
@@ -388,7 +388,7 @@ public class MainApp {
         System.out.println(buses);
     }
 
-    public static void viewBuses(List<Bus> buses) {
+    public static void viewBuses(List<Bus> buses) {    // view available busses
         System.out.println("\n ****************** CSI EXPRESS *****************\n");
         System.out.println("\n VIEW BUSES\n");
         System.out.println(buses);
