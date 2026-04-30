@@ -21,10 +21,10 @@ public enum CityEnum {
         this.latitude = latitude;
         this.longitude = longitude;
   }
-  public getLatitude() {
+  public double getLatitude() {
     return latitude;
   }
-  public getLongitude() {
+  public double getLongitude() {
     return longitude;
   }
   public double distanceTo(CityEnum other) {
