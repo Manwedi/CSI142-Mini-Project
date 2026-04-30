@@ -112,7 +112,7 @@ public class MainApp {
             }
         } while (choice != 4);
     }
-
+    // Booking Menu method
     private static void book(Scanner scanner, List<Bus> buses, List<Route> routes, FareEstimator passengerFare) {
         System.out.println("\n ****************** CSI EXPRESS *****************");
         System.out.println("BOOK A TRIP ");
@@ -194,6 +194,7 @@ public class MainApp {
                 scanner.next();
             }
             System.out.println("Invalid selection");
+            return;
         }
         Bus selectedBus = buses.get(busIndex - 1);
         String busName = selectedBus.getPlateNumber(); 
