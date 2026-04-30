@@ -16,6 +16,10 @@ public class Route {
       this.basePrice = basePrice;
       this.passengers = passengers;
     }
+  public String getDestination(){return destination;}
+  public double getDistanceKm(0){return distanceKm;}
+  public double getBasePrince(){return basePrice;}
+  public int getPassengers(){return passengers;}
   @Override
   public String toString() {
     return destination + " (" + distanceKm + "km) - P" + basePrice;
