@@ -11,7 +11,7 @@ import com.ub.csiexpress.model.CityEnum;
 
 public class Bookings {
     private static int idCounter = 1;
-    private int bookingsId;
+    private int bookingId;
     private String name;
     private CityEnum from;
     private CityEnum to;
@@ -19,7 +19,7 @@ public class Bookings {
     private int fare;
 
     public Bookings(String name, CityEnum from, CityEnum to, String busName, int fare) {
-        this.bookingsId = idCounter++;
+        this.bookingId = idCounter++;
         this.name = name;
         this.from = from;
         this.to = to;
