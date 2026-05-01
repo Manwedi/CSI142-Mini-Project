@@ -16,31 +16,31 @@ which also helps them calculate the distance and travel cost so that they make i
 
 PACKAGE STRUCTURE
 
-src/
-└── com/
-    └── ub/
-        └── csiexpress/
-            ├── app/
-            │   └── MainApp.java           (Entry point)
-            ├── contracts/
-            │   └── Bookings.java          (Interface for bookings)
-            ├── model/
-            │   ├── Bus.java               (Inherits from TransportUnit)
-            │   ├── CityEnum.java          (Enum for locations)
-            │   ├── Combi.java             (Inherits from TransportUnit)
-            │   ├── Route.java             (Route data)
-            │   └── TransportUnit.java     (Parent/Abstract class)
-            ├── services/
-            │   └── FaresEstimator.java    (Business logic)
-            └── util/
-                └── InputValidator.java    (Helper method)
+src/ <br>
+└── com/ <br>
+    └── ub/ <br>
+        └── csiexpress/ <br>
+            ├── app/ <br>
+            │   └── MainApp.java           (Entry point) <br>
+            ├── contracts/ <br>
+            │   └── Bookings.java          (Interface for bookings) <br>
+            ├── model/ <br>
+            │   ├── Bus.java               (Inherits from TransportUnit) <br>
+            │   ├── CityEnum.java          (Enum for locations) <br>
+            │   ├── Combi.java             (Inherits from TransportUnit) <br>
+            │   ├── Route.java             (Route data) <br>
+            │   └── TransportUnit.java     (Parent/Abstract class) <br>
+            ├── services/ <br>
+            │   └── FaresEstimator.java    (Business logic) <br>
+            └── util/ <br>
+                └── InputValidator.java    (Helper method) <br>
                 
-* src/com/ub/csiexpress/app/MainApp.java
-* src/com/ub/csiexpress/contracts/Bookings.java
-* src/com/ub/csiexpress/model/Bus.java
-* src/com/ub/csiexpress/model/Combi.java
-* src/com/ub/csiexpress/model/CityEnum.java
-* src/com/ub/csiexpress/model/Route.java
-* src/com/ub/csiexpress/model/TransportUnit.java
-* src/com/ub/csiexpress/services/FaresEstimator.java
-* src/com/ub/csiexpress/util/InputValidator.java
+* src/com/ub/csiexpress/app/MainApp.java <br>
+* src/com/ub/csiexpress/contracts/Bookings.java <br>
+* src/com/ub/csiexpress/model/Bus.java <br>
+* src/com/ub/csiexpress/model/Combi.java <br>
+* src/com/ub/csiexpress/model/CityEnum.java <br>
+* src/com/ub/csiexpress/model/Route.java <br>
+* src/com/ub/csiexpress/model/TransportUnit.java <br>
+* src/com/ub/csiexpress/services/FaresEstimator.java <br>
+* src/com/ub/csiexpress/util/InputValidator.java <br>
