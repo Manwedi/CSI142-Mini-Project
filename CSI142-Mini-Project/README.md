@@ -6,6 +6,11 @@
  * Legofi Faith Ledimo 202504323 <br>
  * Laone Kepaletswe 202504466 <br>
  * Lebang Taukobong 202501799 <br>  
+ 
+## ACADEMIC CONTEXT
+This project was developed as part of the Computer Science program at the University of Botswana.
+Course: CSI 142 (OBJECT ORIENTED PROGRAMMING
+Instructor: DR KOMBE
 
 ## FEATURES
 
