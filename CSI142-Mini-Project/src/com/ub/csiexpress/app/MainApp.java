@@ -373,7 +373,7 @@ public class MainApp {
         for (Bookings b : bookings) {
             totalRevenue += b.getFare();
         }
-        System.out.println(totalRevenue);
+        System.out.println("BWP " + totalRevenue);
 
     }
 
